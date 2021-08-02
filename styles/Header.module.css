@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #586e75;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  height: 60px;
+}
+
+.headerIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.icon {
+  background-color: #073642;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: default;
+  border: 3px solid #073642;
+}
+
+.icon:hover {
+  background-color: #586e75;
+}

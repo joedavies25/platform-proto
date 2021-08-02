@@ -1,14 +1,19 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+/* import 'tailwindcss/tailwind.css'; */
+@tailwind base;
+@tailwind component;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
+@layer base {
+  :root {
+    --color-text-base: #ffffff;
+    --color-text-muted: #eee8de;
+    --color-text-inverted: #434041;
+    /* --color-text-accent-light: #7b9b4a; */
+    --color-text-accent-light: #80c904;
+    --color-accent-dark: #434041;
+    --color-accent-light: #7f8286;
+    --color-accent-neutral: #eee8de;
+  }
 }
 
 * {
